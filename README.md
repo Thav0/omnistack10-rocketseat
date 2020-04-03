@@ -5,7 +5,7 @@
 
 ## :rocket: About the challenge
 <p>
-The goal of this project was to build web app and mobile to find developers near the user, using distance calculation in a radio of 10km
+The goal of this project was to build web app and mobile app to find developers near the client, using distance calculation in a radio of 10km
 </p>
 
 ## :airplane: NodeJS
@@ -55,6 +55,21 @@ The goal of this project was to build web app and mobile to find developers near
 - ES6 functions
 - Flexbox
 - Get browser client geolocation
+
+## :steam_locomotive: React Native
+
+- Tradicional way of developing for Mobile (Objective-C Swift) | (Java Kotlin Android) VS React Native
+- How to use EXPO
+    - Without expo we need to install Android Studio and Xcode to get SDKs
+    - We can test the app inside expo
+    - We can access all libraries needed to develop for mobile
+- Differences between ReactJS and React Native
+- No semantic Tag
+- How to use a good folder structure and good practices
+- Types of mobile navigation
+- How to style elements
+- How to use google maps
+- Get user current location using mobile GPS permission
 
 ### **How to use it**
 
