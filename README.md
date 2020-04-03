@@ -25,64 +25,42 @@ The goal of this project was to build web app and mobile to find developers near
 - How to config ESlint + Prettier + Nodemon
 - Axios (Promise based HTTP client for the browser)
 - Socket I.O
+- How to use CORS (Security Policy Middleware)
 
-### **Tools that I've used**
+## :helicopter: ReactJs
 
-- Sucrase + Nodemon;
-- ESLint + Prettier + EditorConfig;
-- Sequelize (PostgreSQL);
-- Docker
-- Vscode
-
-### **What I've learned**
-
-- Yarn/Npm
-- Concepts of JWT (Json Web Token) and how to apply it:
-  - Headers (token type, algorithm)
-  - Payload (Additional data)
-  - Signature
-- Authentication through JWT
-- Nodejs Concepts and how it really works;
-  - Goolgle V8
-  - Single-Thread
-    - Multi-Thread through	C++ by lib libuv
-    - Background-Threads
-  - Event Loop
-    - Callstack
-  - Non-blocking IO
-    - Web sotcket (Persistent request)
-- ExpressJS framework
-  - Good for micro-services
-  - Without opinion/structure
-- How an API works
-- How to use and add extra configs on Nodemon
-- How to use sucrase to add Es6/7+ features in Nodejs (I could use also Babel)
-- Docker concepts and how it works
-- How to apply editor config
-- How to use Sequelize ORM for Postgres/Mysql
-- How to use EsLint / Prittier and the benefits of using it
-- How to use migrations / seeds
-- How to organize folders structure and how to import files
-- How to use bcrypt library
-- How to validate data schema through Yup library
-- How to use local/global middleware, is this case I've created auth middleware
-- HTTP verbs
+- How to choose a technology before start a project
+    - Analyse what the market is looking for
+    - Check the community e ecosystem around those technologies
+    - Who is behind the development
+    - Which companies are using the technologies
+    - Which cases can we apply it
+- Differences between tradicional way and SPA (Single page application)
+    - Never refreshes
+    - 
+- React Concepts
+    - Components
+        - JS Functions
+            - Return HTML
+    - Props
+        - Custom values between components
+    - State
+        - Source of Data
+    - Declarative
+    - Virtual DOM
+        - React find the best way to re-render the DOM using Virtual DOM
+    - Unidirectional Dataflow
+- React CLI
+- Folder structure
+- ES6 functions
+- Flexbox
+- Get browser client geolocation
 
 ### **How to use it**
 
 Install node modules
 ```
 yarn install
-```
-
-Run migrations
-```
-yarn sequelize db:migrate
-```
-
-Run Seed
-```
-yarn sequelize db:seed:all
 ```
 
 Run Server
