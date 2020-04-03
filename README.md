@@ -3,7 +3,7 @@
   Omnistack 10 - Dev Radar Project
 </h3>
 
-## :rocket: About the challenge
+## :rocket: About the project
 <p>
 The goal of this project was to build web app and mobile app to find developers near the client, using distance calculation in a radio of 10km
 </p>
